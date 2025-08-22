@@ -12,10 +12,10 @@ patches:
     patch: |-
       - op: replace
         path: /metadata/name
-        value: "control-plane-cluster-dncxw-1"
+        value: "control-plane-cluster-jlq4r-1"
       - op: replace
         path: /spec/nodeSelector/kubernetes.io~1hostname
-        value: "control-plane-cluster-dncxw-1"
+        value: "control-plane-cluster-jlq4r-1"
 
   - target:
       group: nmstate.io
@@ -25,10 +25,10 @@ patches:
     patch: |-
       - op: replace
         path: /metadata/name
-        value: "control-plane-cluster-dncxw-2"
+        value: "control-plane-cluster-jlq4r-2"
       - op: replace
         path: /spec/nodeSelector/kubernetes.io~1hostname
-        value: "control-plane-cluster-dncxw-2"
+        value: "control-plane-cluster-jlq4r-2"
 
   - target:
       group: nmstate.io
@@ -38,10 +38,10 @@ patches:
     patch: |-
       - op: replace
         path: /metadata/name
-        value: "control-plane-cluster-dncxw-3"
+        value: "control-plane-cluster-jlq4r-3"
       - op: replace
         path: /spec/nodeSelector/kubernetes.io~1hostname
-        value: "control-plane-cluster-dncxw-3"
+        value: "control-plane-cluster-jlq4r-3"
 
   - target:
       kind: NetConfig
@@ -49,16 +49,16 @@ patches:
     patch: |-
       - op: replace
         path: /spec/networks/0/dnsDomain
-        value: ctlplane.sandbox-dncxw-ocp4-cluster.svc.cluster.local
+        value: ctlplane.sandbox-jlq4r-ocp4-cluster.svc.cluster.local
       - op: replace
         path: /spec/networks/1/dnsDomain
-        value: internalapi.sandbox-dncxw-ocp4-cluster.svc.cluster.local
+        value: internalapi.sandbox-jlq4r-ocp4-cluster.svc.cluster.local
       - op: replace
         path: /spec/networks/2/dnsDomain
-        value: tenant.sandbox-dncxw-ocp4-cluster.svc.cluster.local
+        value: tenant.sandbox-jlq4r-ocp4-cluster.svc.cluster.local
       - op: replace
         path: /spec/networks/3/dnsDomain
-        value: storage.sandbox-dncxw-ocp4-cluster.svc.cluster.local
+        value: storage.sandbox-jlq4r-ocp4-cluster.svc.cluster.local
       - op: replace
         path: /spec/networks/4/dnsDomain
-        value: external.sandbox-dncxw-ocp4-cluster.svc.cluster.local
+        value: external.sandbox-jlq4r-ocp4-cluster.svc.cluster.local
