@@ -1,1 +1,0 @@
-include::../common/network-isolation.adoc[leveloffset=+1]
