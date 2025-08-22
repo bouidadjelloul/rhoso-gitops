@@ -1,3 +1,0 @@
-- op: replace
-  path: /spec/nodeTemplate/ansible/ansibleVars/dns_search_domains
-  value: sandbox-ttw5j-ocp4-cluster.svc.cluster.local

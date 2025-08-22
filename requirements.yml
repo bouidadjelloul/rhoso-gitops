@@ -1,5 +1,0 @@
----
-# Ansible galaxy dependencies
-collections:
-  - name: https://github.com/ansible-collections/kubernetes.core
-    type: git
